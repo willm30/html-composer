@@ -31,7 +31,6 @@ Example:
 
 ```
 npx html-composer --src=lib/index.html --dst=output/index.html
-
 ```
 ## Syntax
 
@@ -42,7 +41,7 @@ html-composer introduces the non-standard `<import>` tag.
 
 <body>
     <main>
-        <import from "./components/heading.html" />
+        <import from="./components/heading.html" />
     </main>
 </body>
 
